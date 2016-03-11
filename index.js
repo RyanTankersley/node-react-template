@@ -4,9 +4,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const moment = require('moment');
 const config = require('./lib/config');
-const people = require('./lib/peopleBackend');
-const groupCreation = require('./lib/groupCreation');
-const users = require('./src/js/users');
 
 const app = express();
 
